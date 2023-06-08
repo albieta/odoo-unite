@@ -10,10 +10,10 @@ access_keyword_portal,KeywordPortal,model_resources_keyword,base.group_portal,1,
 access_keyword_internal,KeywordInternal,model_resources_keyword,base.group_user,1,0,0,0
 access_keyword_manager,KeywordManager,model_resources_keyword,resources_group_manager,1,1,1,1
 
-access_theme_user,ThemeUser,model_resources_application_theme,base.group_public,1,0,0,0
-access_theme_portal,ThemePortal,model_resources_application_theme,base.group_portal,1,0,0,0
-access_theme_internal,ThemeInternal,model_resources_application_theme,base.group_user,1,0,0,0
-access_theme_manager,ThemeManager,model_resources_application_theme,resources_group_manager,1,1,1,1
+access_theme_user,ThemeUser,model_resources_scientific_domain,base.group_public,1,0,0,0
+access_theme_portal,ThemePortal,model_resources_scientific_domain,base.group_portal,1,0,0,0
+access_theme_internal,ThemeInternal,model_resources_scientific_domain,base.group_user,1,0,0,0
+access_theme_manager,ThemeManager,model_resources_scientific_domain,resources_group_manager,1,1,1,1
 
 access_capacity_user,CapacityUser,model_resources_capacity,base.group_public,1,0,0,0
 access_capacity_portal,CapacityPortal,model_resources_capacity,base.group_portal,1,0,0,0

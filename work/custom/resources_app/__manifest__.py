@@ -15,6 +15,8 @@
 	    "views/resources_menu.xml",
         "views/infrastructure.xml",
         "views/capacity.xml",
+        "views/keywords.xml",
+        "views/scientific_domain.xml",
         "views/web/infrastructure_web_template.xml",
         "views/web/infrastructure_web_menu.xml",
         "views/web/infrastructure_list.xml",

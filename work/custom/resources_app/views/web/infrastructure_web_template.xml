@@ -8,16 +8,23 @@
                     <div class="col-md-4" >
                         <div class="card filter-card">
                             <div class="card-body">
-                                <h5 class="title-filter">Research Application Themes</h5>
+                                <h5 class="title-filter">Scientific domain(s)</h5>
                                 <div class="button-container">
-                                    <t t-foreach="themes" t-as="theme">
-                                        <t t-if="theme.name == selectedTheme">
-                                            <button type="button" class="button filter-btn theme-btn selected" t-att-data-theme="theme.name"><t t-esc="theme.name"/></button>
+                                    <select id="theme-dropdown" class="filter-dropdown">
+                                        <option value="">None</option>
+                                        <t t-foreach="themes" t-as="theme">
+                                        <option t-att-value="theme.name"><t t-esc="theme.name"/></option>
                                         </t>
-                                        <t t-if="theme.name != selectedTheme">
-                                            <button type="button" class="button filter-btn theme-btn" t-att-data-theme="theme.name"><t t-esc="theme.name"/></button>
-                                        </t>
-                                    </t>
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card filter-card-bottom">
+                            <div class="card-body">
+                                <h5 class="title-filter">Open to external users</h5>
+                                <div class="button-container">
+                                    <button type="button" class="button filter-btn open-btn" data-openTrue="Yes">Yes</button>
+                                    <button type="button" class="button filter-btn open-btn" data-openFalse="No">No</button>
                                 </div>
                             </div>
                         </div>
